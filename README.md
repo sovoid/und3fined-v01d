@@ -1,6 +1,6 @@
 # Hi, I'm Soham 👋🏻👨🏻‍💻💻
 
-<img align="center" src="https://avatars3.githubusercontent.com/u/55358652?s=460&u=77311cde5e5ca6df07b621d55c6b2a7edfd0fb11&v=4" alt="Soham Parekh">
+<img align="center" src="https://github.com/und3fined-v01d/und3fined-v01d/blob/master/me.jpeg?raw=true" alt="Soham Parekh">
 I am a software developer creating open source projects and <a href="https://sohamp.dev">writing</a> about software development, competitive coding, machine learning, cybersecurity and information security awareness. I am also the founder of and lead maintainer at `Devstation`, a not-for-profit organisation with an aim to encourage startups and organisations to adopt open source tech.
 
 ## Find me in the 'verse 🌎:
