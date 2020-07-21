@@ -1,9 +1,9 @@
-<h1>Hi Dev-eloper, I am <a href="https://ashutoshhathidara.com/">Soham</a><img src="./gifs/hello.gif" width="30px"></h1>
-<img src="./banner.png"/>
+<h1>Hi Dev-eloper, I am <a href="https://sohamp.dev/">Soham</a><img src="https://github.com/und3fined-v01d/und3fined-v01d/blob/master/gifs/hello.gif" width="30px"></h1>
+<img src="https://github.com/und3fined-v01d/und3fined-v01d/blob/master/banner.png"/>
 
-<a href="https://www.linkedin.com/in/soham-parekh"><img src="./logos/linkedin.png" width="40" /></a>
-<a href="https://www.facebook.com/soham.parekh.14/"><img src="./logos/facebook.png" width="40" /></a>
-<a href="mailto:soham.parekh1998@gmail.com"><img src="./logos/gmail.png" width="40" /></a>
+<a href="https://www.linkedin.com/in/soham-parekh"><img src="https://github.com/und3fined-v01d/und3fined-v01d/blob/master/logos/linkedin.png" width="40" /></a>
+<a href="https://www.facebook.com/soham.parekh.14/"><img src="https://github.com/und3fined-v01d/und3fined-v01d/blob/master/logos/facebook.png" width="40" /></a>
+<a href="mailto:soham.parekh1998@gmail.com"><img src="https://github.com/und3fined-v01d/und3fined-v01d/blob/master/logos/gmail.png" width="40" /></a>
 
 <p>
 I am a software developer creating open source projects and <a href="https://sohamp.dev/hi">writing</a> about software development, competitive coding, machine learning, cybersecurity and information security awareness.
