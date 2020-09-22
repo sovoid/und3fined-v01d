@@ -41,5 +41,10 @@ the list goes on...
   </ul>
 </details>
 
-![Soham's Github Stats](https://github-readme-stats.vercel.app/api?username=und3fined-v01d&show_icons=true&theme=tokyonight)
-![Soham's Github Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=und3fined-v01d&theme=tokyonight)
+<a align="center" href="https://sohamp.dev">
+    <p align="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=und3fined-v01d&show_icons=true&theme=tokyonight" alt="my github stats" width="420"/>
+      &nbsp;
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=und3fined-v01d&layout=compact&theme=tokyonight" alt="languages" height="165">
+    </p>
+</a>
