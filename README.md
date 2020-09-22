@@ -42,4 +42,4 @@ the list goes on...
 </details>
 
 ![Soham's Github Stats](https://github-readme-stats.vercel.app/api?username=und3fined-v01d&show_icons=true&theme=tokyonight)
-![Soham's Github Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=und3fined-v01d&layout=compact&theme=tokyonight)
+![Soham's Github Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=und3fined-v01d&theme=tokyonight)
