@@ -1,4 +1,7 @@
-require('dotenv').config()
+if (process.env.NODE_ENV === 'local') {
+  require('dotenv').config()
+}
+
 const algoliasearch = require('algoliasearch')
 const ejs = require('ejs')
 const { promises: fs } = require('fs')
