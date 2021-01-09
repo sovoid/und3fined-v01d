@@ -6,7 +6,7 @@ const algoliasearch = require('algoliasearch')
 const ejs = require('ejs')
 const { promises: fs } = require('fs')
 const _ = require('lodash')
-const properties = require('properties')
+const toml = require('toml')
 
 const getRecentPosts = async (index) => {
   const { hits } = await index.search('', {
@@ -40,16 +40,9 @@ const getRecentPosts = async (index) => {
   return recentPosts.slice(-5).reverse()
 }
 
-const parseProperties = (filePath) => {
-  return new Promise((resolve, reject) => {
-    properties.parse(filePath, { path: true, sections: true, namespaces: true }, (err, obj) => {
-      if (err) {
-        return reject(err)
-      } else {
-        resolve(obj)
-      }
-    })
-  })
+const parseProperties = async (filePath) => {
+  const properties = await fs.readFile(filePath, { encoding: 'utf-8' })
+  return toml.parse(properties)
 }
 
 const main = async () => {
@@ -62,14 +55,12 @@ const main = async () => {
 
   const posts = await getRecentPosts(index)
 
-  const propertiesObj = await parseProperties('./config.properties')
+  const propertiesObj = await parseProperties('./config.toml')
 
-  const htmlString = await ejs.renderFile('./index.ejs', {
+  const htmlString = await ejs.renderFile('index.ejs', {
     ...propertiesObj,
     posts,
     lastRunOn: new Date().toISOString()
-  }, {
-    async: true
   })
 
   await fs.writeFile('./README.md', htmlString, { encoding: 'utf-8' })
