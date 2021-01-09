@@ -61,6 +61,79 @@
 </ul>
 
 <!--START_SECTION:waka-->
+![Profile Views](http://img.shields.io/badge/Profile%20Views-79-blue)
+
+**🐱 My Github Data** 
+
+> 🏆 62 Contributions in the Year 2021
+ > 
+> 📦 470.8 kB Used in Github's Storage 
+ > 
+> 💼 Opted to Hire
+ > 
+> 📜 45 Public Repositories 
+ > 
+> 🔑 16 Private Repositories  
+ > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning    117 commits    ███░░░░░░░░░░░░░░░░░░░░░░   11.65% 
+🌆 Daytime    257 commits    ██████░░░░░░░░░░░░░░░░░░░   25.6% 
+🌃 Evening    424 commits    ██████████░░░░░░░░░░░░░░░   42.23% 
+🌙 Night      206 commits    █████░░░░░░░░░░░░░░░░░░░░   20.52%
+
+```
+📅 **I'm Most Productive on Tuesday** 
+
+```text
+Monday       147 commits    ███░░░░░░░░░░░░░░░░░░░░░░   14.64% 
+Tuesday      215 commits    █████░░░░░░░░░░░░░░░░░░░░   21.41% 
+Wednesday    126 commits    ███░░░░░░░░░░░░░░░░░░░░░░   12.55% 
+Thursday     136 commits    ███░░░░░░░░░░░░░░░░░░░░░░   13.55% 
+Friday       118 commits    ███░░░░░░░░░░░░░░░░░░░░░░   11.75% 
+Saturday     141 commits    ███░░░░░░░░░░░░░░░░░░░░░░   14.04% 
+Sunday       121 commits    ███░░░░░░░░░░░░░░░░░░░░░░   12.05%
+
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+⌚︎ Time Zone: Asia/Kolkata
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+
+```
+
+**I Mostly Code in JavaScript** 
+
+```text
+JavaScript               22 repos            ██████████░░░░░░░░░░░░░░░   40.0% 
+HTML                     10 repos            ████░░░░░░░░░░░░░░░░░░░░░   18.18% 
+CSS                      7 repos             ███░░░░░░░░░░░░░░░░░░░░░░   12.73% 
+TypeScript               3 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   5.45% 
+Jupyter Notebook         2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   3.64%
+
+```
+
+
+**Timeline**
+
+![Chart not found](https://raw.githubusercontent.com/und3fined-v01d/und3fined-v01d/master/charts/bar_graph.png) 
+
+
 <!--END_SECTION:waka-->
 
 <!-- SOCIAL -->
