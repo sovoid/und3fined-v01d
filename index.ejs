@@ -2,6 +2,8 @@
 
 <p align="center">Welcome to my page! </br> I'm <%= meta.firstName %>, a <%= meta.role %> from <img src="<%= meta.location.imageUrl %>" width="13"/> <b><%= meta.location.city %>, <%= meta.location.country %></b>.</p>
 
+<img src="static/banner.svg" alt="banner" />
+
 <h3>Things I code with</h3>
 <p>
 <% for(const [key, value] of Object.entries(technologies)) { %><img alt="<%= key %>" src="<%= value %>" /> <% } %>
