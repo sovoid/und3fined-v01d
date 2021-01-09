@@ -13,7 +13,7 @@ const getRecentPosts = async (index) => {
     getRankingInfo: true,
     analytics: false,
     enableABTest: false,
-    hitsPerPage: 10,
+    hitsPerPage: 100,
     attributesToRetrieve: '*',
     attributesToSnippet: '*:20',
     snippetEllipsisText: '…',
