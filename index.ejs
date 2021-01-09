@@ -4,24 +4,24 @@
 
 <img src="static/banner.svg" alt="banner" />
 
-<h3>Things I code with</h3>
+<h3>:zap: Technologies</h3>
 <p>
 <% for(const [key, value] of Object.entries(technologies)) { %><img alt="<%= key %>" src="<%= value %>" /> <% } %>
 </p>
 
-<h3>Open Source Projects</h3>
+<h3>:computer: Open Source Projects</h3>
 
 | 🎁 Projects |  ⭐ Stars  | 📚 Forks |
 | ----------- | --------- | --------- |<% for(const [key, value] of Object.entries(projects)) { %>
 | [<%= value.name %>](<%= value.url %>) | ![Stars](<%= value.stars %>) | ![Forks](<%= value.forks %>) | <% } %>
 
-<h3>Recent in my Blog</h3>
+<h3>:mailbox_with_mail: Writing</h3>
 <ul>
 <% for(const post of posts) { %>
 <li><a href="<%= post.url %>"><b><%= post.title %></b></a></li><% } %>
 </ul>
 
-<h3>Find me in the 'verse</h3>
+<h3>:milky_way: Find me in the 'verse</h3>
 <p>
 <a href="<%= social.github.url %>" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a>  
 <a href="<%= social.linkedin.url %>" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
