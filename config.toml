@@ -3,10 +3,11 @@ firstName = "Soham"
 lastName = "Parekh"
 role = "Software Developer"
 about = """I am a software developer creating open source projects and 
-  writing about software development, competitive coding, machine learning, 
-  cybersecurity and information security awareness.
+  <a href="https://sohamp.dev/">writing</a> about software development, 
+  competitive coding, machine learning, cybersecurity and information security awareness.
   I am also the founder of and lead maintainer at Devstation, a not-for-profit 
-  organisation with an aim to encourage startups and organisations to adopt open-source tech."""
+  organisation with an aim to encourage startups and organisations to adopt 
+  open-source tech."""
 
 [meta.location]
 city = "Mumbai"

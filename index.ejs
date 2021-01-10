@@ -3,7 +3,7 @@
 <p align="center">Welcome to my page! </br> I'm <%= meta.firstName %>, a <%= meta.role %> from <img src="<%= meta.location.logo %>" width="13"/> <b><%= meta.location.city %>, <%= meta.location.country %></b>.</p>
 
 <p>
-    <%= meta.about %>
+    <%- meta.about -%>
 </p>
 
 <img src="static/banner.svg" alt="banner" />
@@ -14,11 +14,6 @@
 <p>
 <% for(const [name, logo] of Object.entries(technologies)) { %><img alt="<%= name %>" src="<%= logo %>" /> <% } %>
 </p>
-
-<!-- WORK -->
-<h3>:briefcase: Work </h3>
-
-<img align="center" src="static/work.svg" alt="work experience" />
 
 <!-- PROJECTS -->
 <h3>:computer: Open Source Projects</h3>
