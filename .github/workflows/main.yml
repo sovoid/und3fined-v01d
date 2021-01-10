@@ -31,17 +31,6 @@ jobs:
           ALGOLIA_APPLICATION_ID: ${{secrets.ALGOLIA_APPLICATION_ID}}
           ALGOLIA_API_KEY: ${{ secrets.ALGOLIA_API_KEY }}
           ALGOLIA_INDEX: ${{ secrets.ALGOLIA_INDEX }}
-      - name: Push new README.md
-        uses: mikeal/publish-to-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  
-  wakatime:
-    runs-on: ubuntu-latest
-
-    needs: build
-
-    steps:
       - name: Add Waka Metrics
         uses: anmol098/waka-readme-stats@master
         with:
@@ -49,3 +38,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           SHOW_LANGUAGE_PER_REPO: "False"
           SHOW_LOC_CHART: "False"
+      # - name: Push new README.md
+      #   uses: mikeal/publish-to-github-action@master
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
