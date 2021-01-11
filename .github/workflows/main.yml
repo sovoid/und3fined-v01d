@@ -38,6 +38,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           SHOW_LANGUAGE_PER_REPO: "False"
           SHOW_LOC_CHART: "False"
+          SHOW_PROJECTS: "False"
       # - name: Push new README.md
       #   uses: mikeal/publish-to-github-action@master
       #   env:
